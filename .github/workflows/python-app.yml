@@ -22,10 +22,7 @@ jobs:
     - name: Lint with Pylint
       run: |
         pylint ./utils.py
-<<<<<<< HEAD
     - name: Lint with Pylint 
-=======
->>>>>>> 468dabad73fcb21ce7cb62edbb614baf235bf555
       run: |
         pylint ./binary_converter.py
     - name: Format with Black
